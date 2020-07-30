@@ -18,12 +18,11 @@
 				</button>
 				<div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 					<div class="navbar-nav tamanho-navbar">
-						<a class="nav-item nav-item-home nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-item-contato nav-link ml-4" href="#contato">Contato</a>
-						<a class="nav-item nav-item-portfolio nav-link ml-4" href="#portfolio">Portfólio</a>
+						<a class="nav-item nav-item-home nav-link active" id="home-menu" href="index.html">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-item-contato nav-link ml-4" id="contato-menu" href="#contato">Contato</a>
+						<a class="nav-item nav-item-portfolio nav-link ml-4" id="portfolio-menu" href="#portfolio">Portfólio</a>
 					</div>
 					<a href="https://www.linkedin.com/in/rodrigo-gabiati-92041a55/"><img id="icone-linkedin" src="img/icone-linkedin.png" alt="ícone Linkedin" width="30px"></a>
-					<a href=""><img id="icone-instagram" src="img/icone-instagram.png" alt="ícone instagram" width="30px"></a>
 				</div>
 			</nav>
 
@@ -54,7 +53,7 @@
 
 			<section id="contato" class="container text-center mb-5">
 				<h3 id="form-titulo">Preencha o formulário abaixo e aguarde contato.</h3>
-				<form class="form-alt bg-light p-3 rounded">
+				<form class="form-alt bg-light p-3 rounded anime">
 					<div class="row form-alt">
 						<div class="col">
 							<input type="text" class="form-control" placeholder="Nome">
@@ -84,8 +83,8 @@
 
 			<hr class="container borda-hr">
 
-			<section id="portfolio" class="container bg-dark mb-5 rounded">
-				<h3 class="fonte-portfolio p-3">Precisa de <strong>MOTIVOS?</strong></h3>
+			<section class="container bg-dark mb-5 rounded anime">
+				<h3 class="fonte-especial p-3">Precisa de <strong>MOTIVOS?</strong></h3>
 				<div class="row">
 
 					<article class="mt-3">
@@ -120,16 +119,16 @@
 
 			<hr class="container borda-hr">
 
-			<section class="container-fluid bg-dark">
-				<h3 class="fonte-portfolio fonte-size-40 text-center p-5"><strong>PORTFÓLIO</strong></h3>
+			<section id="portfolio" class="container-fluid bg-dark">
+				<h3 class="fonte-especial fonte-size-40 text-center p-5"><strong>PORTFÓLIO</strong></h3>
 				<div class="row pb-5">
-					<article class="col-md-6">
-						<h4 id="titulo-site" class="fonte-portfolio">Trill Química</h4>
+					<article class="col-md-6 anime">
+						<h4 id="" class="fonte-especial titulo-site">Trill Química</h4>
 							<a href="http://www.trillquimica.com.br/"><img class="img-thumbnail" src="img/siteTrill.PNG" alt="Site Trill Química" width="100%"></a>
 							<figcaption class="text-primary">Site Institucional</figcaption>
 					</article>
-					<article class="col-md-6">
-						<h4 id="titulo-site" class="fonte-portfolio">GAP Química</h4>
+					<article class="col-md-6 anime">
+						<h4 id="" class="fonte-especial titulo-site">GAP Química</h4>
 							<a href=""><img class="img-thumbnail" src="img/siteGap.PNG" alt="Site Gap Química" width="100%"></a>
 							<figcaption class="text-primary">Site Institucional</figcaption>
 					<article>
@@ -149,8 +148,9 @@
 
 		<script></script>
 		<script src="js/jquery-3.5.1.js" type="text/javascript"></script>
+		<script src="js/app.js" type="text/javascript"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-		<script src="js/app.js" type="text/javascript"></script>
+		
   </body>
 </html>
